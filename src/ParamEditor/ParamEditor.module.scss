@@ -1,0 +1,41 @@
+.paramEditorContainer {
+  display: flex;
+  gap: 18px;
+
+  &>* {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .formContainer {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+.paramInputContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #1d1b20;
+  border-radius: 8px;
+
+  &>* {
+    flex-grow: 1;
+    flex-shrink: 1;
+    word-wrap: break-word;
+  }
+
+  .label {
+    flex-basis: 33%;
+    width: 33%;
+  }
+
+  .input {
+    flex-basis: 66%;
+    width: 66%;
+    padding: 6px 12px
+  }
+}
